@@ -25,21 +25,21 @@ export default function AboutSection() {
                   playsInline
                   controls
                   loop
-                  poster="https://neonnextgeneration.com/favico.png"
+                  poster="/favico.png"
                   className="w-full"
                 >
                   <source
-                    src="https://neonnextgeneration.com/Neon%20next%20generation%20theme%20song%20-%20Neon%20Next%20Generation%20(1080p,%20h264).mp4"
+                    src="/vid.mp4"
                     type="video/mp4"
                   />
                   <track
                     kind="captions"
                     label="English"
-                    src="https://neonnextgeneration.com/captions-en.vtt"
+                    src="/captions-en.vtt"
                     srcLang="en"
                   />
                   <a
-                    href="https://neonnextgeneration.com/Neon%20next%20generation%20theme%20song%20-%20Neon%20Next%20Generation%20(1080p,%20h264).mp4"
+                    href="/vid.mp4"
                     download
                   >
                     Download video

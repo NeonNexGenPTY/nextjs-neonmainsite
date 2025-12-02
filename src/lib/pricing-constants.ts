@@ -20,9 +20,7 @@ type Plan = {
 
 export const pricingTabs = [
   { id: 'monthly', label: 'Virtual Private Container' },
-  { id: 'yearly', label: 'Virtual Private Container High Performance' },
   { id: 'vpn', label: 'VPN' },
-  { id: 'vpc', label: 'Bot Hosting' },
 ];
 
 export const pricingPlans: Record<string, Plan[]> = {

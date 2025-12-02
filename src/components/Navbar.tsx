@@ -64,10 +64,10 @@ const Navbar = () => {
 
   return (
     <>
-      <nav ref={navbarRef} className="backdrop-blur-md bg-black/20 border-b border-white/10 p-4 flex justify-between items-center fixed top-0 left-0 w-full z-20">
+      <nav ref={navbarRef} className="backdrop-blur-md bg-gradient-to-r from-green-900/30 via-red-900/30 to-green-900/30 border-b border-white/10 p-4 flex justify-between items-center fixed top-0 left-0 w-full z-20 christmas-theme">
         <div className="flex items-center space-x-2">
           <img src="/favico.png" alt="Neon Next Generation Logo" className="h-8" />
-          <span className="text-white text-lg font-semibold">Neon</span>
+          <span className="text-white text-lg font-semibold">🎄 Neon ❄️</span>
         </div>
 
         <div className="hamburger-menu md:hidden cursor-pointer" onClick={toggleMobileMenu}>

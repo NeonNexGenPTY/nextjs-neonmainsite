@@ -1,10 +1,10 @@
 export default function AboutSection() {
   return (
-    <section className="w-full px-4 py-16 backdrop-blur-md bg-black/20" id="about-us">
+    <section className="w-full px-4 py-16 backdrop-blur-md bg-gradient-to-r from-green-900/20 via-red-900/20 to-green-900/20 christmas-theme" id="about-us">
       <div className="flex items-center flex-col justify-center max-w-6xl md:flex-row-reverse md:space-x-8 md:space-x-reverse mx-auto">
         <div className="animate-on-scroll md:w-1/2 mb-8 md:mb-0 slide-right md:text-left text-center">
           <h2 className="font-extrabold text-4xl mb-8 md:text-5xl">
-            About <span className="gradient-text-hosting">Us</span>
+            About <span className="gradient-text-christmas">Us</span> 🎄
           </h2>
           <p className="text-lg leading-relaxed text-gray-300">
             We are an Australian-based company specializing in cutting-edge solutions for software development, hosting, game

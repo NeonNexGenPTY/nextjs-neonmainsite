@@ -5,7 +5,7 @@ import { footerData } from '../lib/footer-constants';
 
 const Footer = () => {
   return (
-    <footer className="backdrop-blur-md bg-black/20 border-t border-white/10 text-white py-6">
+    <footer className="backdrop-blur-md bg-gradient-to-r from-green-900/30 via-red-900/30 to-green-900/30 border-t border-white/10 text-white py-6 christmas-theme">
       <div className="container mx-auto px-4 py-6">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-6 text-left">
           {/* Neon Logo/Name and Social Icons */}
@@ -13,7 +13,7 @@ const Footer = () => {
             <div>
               <div className="flex items-center space-x-2 mb-3">
                 <img src={footerData.logo.src} alt={footerData.logo.alt} className="h-8" />
-                <span className="text-white text-lg font-semibold">{footerData.logo.name}</span>
+                <span className="text-white text-lg font-semibold">🎄 {footerData.logo.name} ❄️</span>
               </div>
             </div>
             <div className="flex space-x-4 mt-3 md:mt-0">

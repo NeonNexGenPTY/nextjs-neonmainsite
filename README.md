@@ -1,1 +1,8 @@
-# Welcome to your Dyad app
+# NEON-NEXT-GENERATION- MAIN SITE
+
+
+12/31/2025
+
+
+SITE IS NOW RE-WRITTEN IN VITEJS
+

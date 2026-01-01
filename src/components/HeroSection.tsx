@@ -60,7 +60,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="text-sm md:text-base text-gray-400 mb-8 space-y-1 italic"
         >
-          <li>25GB NVMe Storage</li>
+          <li>30GB NVMe Storage</li>
           <li>Priority Support</li>
           <li>Early Developer Features</li>
           <li>Access to VPN Services</li>
